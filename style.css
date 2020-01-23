@@ -1,0 +1,169 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Carol Egbert
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+.home-page {
+  background: url('img/taxi-photo.jpg') no-repeat scroll right center / cover
+    rgba(0, 0, 0, 0);
+}
+
+.button {
+  background: #45ac9d;
+}
+.blog-post {
+  width: 50%;
+  float: left;
+  margin-bottom: 2em;
+}
+
+.blog-post h4 {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 0.5em;
+}
+
+.blog-post h3 {
+  font-size: 1.5em;
+}
+
+.read-more-link {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+
+/* Featured Work */
+#homepage-featured-work {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.featured-work {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.individual-featured {
+  text-align: center;
+}
+
+/* Case Studies Archive */
+
+.archive-case-study-sidebar {
+  float: left;
+  width: 400px;
+  font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+  padding-right: 50px;
+  clear: left;
+  padding-top: 30px;
+}
+h5.archive-case-study-title {
+  font-size: 0.65em;
+  color: grey;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+h6.archive-case-study-title {
+  font-size: 0.85em;
+  color: grey;
+  margin-top: 5px;
+}
+
+.archive-case-study-one-img {
+  float: left;
+  margin: 0 auto;
+  margin-left: 47px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 500px;
+}
+
+.archive-case-study-sidebar .read-more-link {
+  padding-top: 20px;
+  font-size: 0.85em;
+}
+
+/* Case Studies  & Case Studies Archive*/
+
+aside.case-study-sidebar {
+  float: left;
+  width: 300px;
+  font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+  clear: left;
+}
+h5.case-study-sidebar {
+  font-size: 0.65em;
+  color: grey;
+  font-weight: lighter;
+}
+
+h6.case-study-sidebar {
+  font-size: 0.85em;
+  color: grey;
+}
+
+div.case-study-images {
+  float: left;
+  width: 500px;
+  padding-left: 100px;
+}
+
+.case-study-image {
+  padding-bottom: 50px;
+}
+
+.case-study-sidebar .read-more-link {
+  padding-top: 20px;
+  font-size: 0.85em;
+}
+div.case-study-images img {
+  width: 100%;
+  height: auto;
+}
+/* FOOTER  */
+#menu-social-media-nav {
+  list-style-type: none;
+  display: flex;
+}
+#menu-item-13 {
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 2.5em;
+  background: black;
+  margin: 10px;
+  padding: 10px;
+}
+
+#menu-item-14 {
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 2.5em;
+  background: black;
+  margin: 10px;
+  padding: 10px;
+}
+
+#menu-item-47359 {
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 2.5em;
+  background: black;
+  margin: 10px;
+  padding: 7px;
+}
